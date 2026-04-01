@@ -6,7 +6,9 @@ Se utiliza un enfoque de rebalanceo diario basado en la selección de los top 5 
 
 La estrategia parte de la hipótesis de que activos con mejores propiedades de liquidez y estabilidad tienden a mostrar un desempeño más consistente y favorable.
 
-⚙️ Construcción del Quality Score
+####################################
+###Construcción del Quality Score###
+####################################
 
 Para lograr esto, se extraen y promedian diariamente los siguientes factores para cada activo:
 
@@ -36,7 +38,9 @@ La estrategia incorpora un proceso de adaptación diaria:
 
 Esto permite mantener una cartera dinámica y alineada con las mejores condiciones de mercado.
 
-###Resultados
+################
+###Resultados###
+################
 
 Con los datos entregados y la estrategia implementada, se obtuvieron los siguientes resultados:
 
@@ -51,7 +55,9 @@ Estos resultados muestran:
 
 Todo esto gracias al uso de factores de calidad como filtro de inversión.
 
-###Instrucciones del Proyecto
+################################
+###Instrucciones del Proyecto###
+################################
 
 Las instrucciones completas para el desarrollo de este proyecto se encuentran en el archivo Proyecto Final.pdf, incluido en este repositorio.
 
@@ -65,7 +71,9 @@ En dicho documento se detallan:
 
 Se recomienda revisarlo para entender completamente el contexto del desarrollo.
 
-###Datos
+###########
+###Datos###
+###########
 
 El dataset (data.parquet) no está incluido en este repositorio debido a restricciones de tamaño.
 
@@ -90,7 +98,9 @@ import pandas as pd
 df = pd.read_parquet("data.parquet")
 ```
 
-###Reproducibilidad
+######################
+###Reproducibilidad###
+######################
 
 La estrategia es completamente reproducible siempre que se tenga acceso al dataset.
 
