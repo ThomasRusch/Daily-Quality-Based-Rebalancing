@@ -21,21 +21,20 @@ Finalmente con los datos entregados y la estrategia utilizada, se logró obtener
 
 ######################
 
-## 📦 Data
+El dataset (data.parquet) no está incluido en este repositorio debido a restricciones de tamaño.
 
-The dataset (`data.parquet`) is not included in this repository due to size constraints.
+Para ejecutar el proyecto:
 
-To run the project:
-1. Obtain the dataset provided during the course
-2. Place it in the root folder of the project: /data.parquet
-3. 3. Load it using:
-
-```python
+1. Obtener el dataset entregado durante el curso
+2. Ubicarlo en la carpeta raíz del proyecto: /data.parquet
+3. Cargarlo utilizando:
+   
 import pandas as pd
 df = pd.read_parquet("data.parquet")
 
-## 🧪 Reproducibility
 
-The strategy is fully reproducible given access to the dataset. 
-All preprocessing, feature engineering, and trading logic are implemented in `analysis.ipynb` and `main.py`.
+##Reproducibilidad
+
+La estrategia es completamente reproducible siempre que se tenga acceso al dataset.
+Todo el preprocesamiento, la construcción de variables (feature engineering) y la lógica de trading están implementados en analysis.ipynb y main.py.
 
