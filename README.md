@@ -90,7 +90,7 @@ import pandas as pd
 df = pd.read_parquet("data.parquet")
 ```
 
-🧪 Reproducibilidad
+###Reproducibilidad
 
 La estrategia es completamente reproducible siempre que se tenga acceso al dataset.
 
