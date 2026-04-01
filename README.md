@@ -28,11 +28,11 @@ Para ejecutar el proyecto:
 1. Obtener el dataset entregado durante el curso
 2. Ubicarlo en la carpeta raíz del proyecto: /data.parquet
 3. Cargarlo utilizando:
-   
+
+```python
 import pandas as pd
 df = pd.read_parquet("data.parquet")
-
-
+```
 ##Reproducibilidad
 
 La estrategia es completamente reproducible siempre que se tenga acceso al dataset.
